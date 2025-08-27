@@ -1,0 +1,8 @@
+{
+  "$schema": "https://raw.githubusercontent.com/microsoft/vcpkg-tool/main/docs/vcpkg.schema.json",
+  "name": "boost-iostreams-tar-filter",
+  "version-semver": "1.0.0",
+  "description": "Can be used to process Boost IOStream Tar Files",
+  "homepage": "https://github.com/pratikpc/boost-iostreams-tar-filter",
+  "license": "BSD-3-Clause"
+}
