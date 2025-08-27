@@ -4,5 +4,8 @@
   "version-semver": "1.0.0",
   "description": "Can be used to process Boost IOStream Tar Files",
   "homepage": "https://github.com/pratikpc/boost-iostreams-tar-filter",
-  "license": "BSD-3-Clause"
+  "license": "BSD-3-Clause",
+  "dependencies": [
+    "boost-iostreams"
+  ]
 }
