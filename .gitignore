@@ -39,3 +39,9 @@
 
 # debug information files
 *.dwo
+
+out
+.cache
+.vscode
+CMakePresets.json
+compile_commands.json
