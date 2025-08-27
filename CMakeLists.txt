@@ -28,3 +28,11 @@ target_include_directories(
 target_link_libraries(${TARGET_NAME} PUBLIC Boost::iostreams)
 
 target_sources(${TARGET_NAME} PRIVATE src/base-tar-filter-impl.cxx)
+
+option(BOOST_IOSTREAMS_TAR_FILTER_BUILD_TESTING "Enable testing" OFF)
+if(BOOST_IOSTREAMS_TAR_FILTER_BUILD_TESTING)
+    # Enable CTest support
+    include(CTest)
+    enable_testing()
+    add_subdirectory(tests)
+endif(BOOST_IOSTREAMS_TAR_FILTER_BUILD_TESTING)

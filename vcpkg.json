@@ -7,5 +7,14 @@
   "license": "BSD-3-Clause",
   "dependencies": [
     "boost-iostreams"
-  ]
+  ],
+  "features": {
+    "tests": {
+      "description": "Required for Unit Tests",
+      "dependencies": [
+        "gtest",
+        "picosha2"
+      ]
+    }
+  }
 }
